@@ -1,13 +1,9 @@
-# WheelLog.Android
-
 Unofficial App for EUC on Android. 
 The following manufacturers are supported:
 - InMotion
 - KingSong
 - Gotway
 - Veteran
-
-![image](https://user-images.githubusercontent.com/27482193/95566187-ea8d5580-0a29-11eb-8182-329764d572b7.png)
 
 ## Pebble app code
 
