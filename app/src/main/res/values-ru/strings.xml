@@ -242,11 +242,11 @@
     <string name="show_settings">Показать меню настроек</string>
     <string name="maxcurrent">Макс. ток</string>
     <string name="maxpower">Макс. мощность</string>
-    <string name="notification_text_min">[ЕДЕТ] \n  - %1$.0f км/ч \n  - %2$.0f макс  \n\n[БАТАРЕЯ] \n  - %3$d %%  \n\n[ПУТЬ] \n  - %4$.1f км</string>
-    <string name="notification_text_med">[ЕДЕТ] \n  - %1$.0f макс \n  - %2$.0f сред \n  - %3$.0f pwm  \n\n[ДРУГОЕ] \n  - %4$d %% \n  - %5$d °C \n  - %6$.1f км</string>
-    <string name="notification_text_max">[ЕДЕТ] \n  ⭐ %1$.0f км/ч \n  🔥 %2$.0f топ \n  🙈 %3$.0f сред \n\n[ДАННЫЕ] \n  💧 %4$d %% \n  ⚡ %5$.2f V \n  💪 %6$.0f W \n  ❄ %7$d °C  \n\n[ПУТЬ] \n  👣 %8$.1f км</string>
-    <string name="notification_text_alarm">[ДАННЫЕ] \n  - %1$.0f км/ч \n  - %2$.1f A \n  - %3$.2f V \n  - %4$d %% \n  - %5$d °C</string>
-    <string name="notification_text_alarm_not">Данные аларма: %1$.0f км/ч | %2$.1f A | %3$.2f V | %4$d %% | %5$d °C</string>
+    <string name="notification_text_min">[ЕДЕТ] \n  - %1$.0f к/ч \n  - %2$.0f мкс  \n\n[БАТАРЕЯ] \n  - %3$d %%  \n\n[ПУТЬ] \n  - %4$.1f км</string>
+    <string name="notification_text_med">[ЕДЕТ] \n  - %1$.0f к/ч \n  - %2$.0f срд \n  - %3$.0f pwm  \n\n[ДРУГОЕ] \n  - %4$d %% \n  - %5$d °C \n  - %6$.1f км</string>
+    <string name="notification_text_max">[ЕДЕТ] \n  ⭐ %1$.0f к/ч \n  🔥 %2$.0f топ \n  🙈 %3$.0f сред \n\n[ДАННЫЕ] \n  💧 %4$d %% \n  ⚡ %5$.2f V \n  💪 %6$.0f W \n  ❄ %7$d °C  \n\n[ПУТЬ] \n  👣 %8$.1f км</string>
+    <string name="notification_text_alarm">[ДАННЫЕ] \n  - %1$.0f к/ч \n  - %2$.1f A \n  - %3$.2f V \n  - %4$d %% \n  - %5$d °C</string>
+    <string name="notification_text_alarm_not">Данные аларма: %1$.0f к/ч | %2$.1f A | %3$.2f V | %4$d %% | %5$d °C</string>
     <string name="titlealarm">Сработал аларм!</string>
     <string name="titlealarm_text">Режим алармов</string>
     <string name="alarmmiband">Алармы на MiBand</string>

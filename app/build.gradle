@@ -7,6 +7,14 @@ repositories {
 }
 
 android {
+    signingConfigs {
+        AJ {
+            storeFile file('/Users/alexjastrebov/Downloads/WL Github copy/Key/wldmod')
+            keyAlias 'wldmod'
+            keyPassword 'FAKS*IXYKEY'
+            storePassword 'FAKS*IXYKEY'
+        }
+    }
     compileSdkVersion 29
     buildToolsVersion '29.0.3'
 
@@ -18,8 +26,8 @@ android {
         applicationId "com.cooper.wheellog"
         minSdkVersion 18
         targetSdkVersion 29
-        versionCode 77
-        versionName "2.5.1M"
+        versionCode 78
+        versionName "2.5.2M"
         buildConfigField 'String', 'BUILD_TIME', 'new java.text.SimpleDateFormat("HH:mm dd.MM.yyyy", java.util.Locale.US).format(new java.util.Date(' + System.currentTimeMillis() +'L))'
         vectorDrawables.useSupportLibrary = true
         multiDexEnabled true
