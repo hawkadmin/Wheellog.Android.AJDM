@@ -231,11 +231,11 @@
     <string name="alarm_text_speed_v">Перевищення швидкості: %1$.0f к/г</string>
     <string name="alarm_text_current_v">Перевищення сили струму: %1$.0f A</string>
     <string name="alarm_text_temperature_v">Перевищення температури: %1$d°C</string>
-    <string name="notification_text_min">[ШВИДК.] \n  - %1$.0f км/г \n  - %2$.0f макс  \n\n[БАТАРЕЯ] \n  - %3$d %%  \n\n[ШЛЯХ] \n  - %4$.1f км</string>
-    <string name="notification_text_med">[ШВИДК.] \n  - %1$.0f макс \n  - %2$.0f сер \n  - %3$.0f pwm  \n\n[IНШЕ] \n  - %4$d %% \n  - %5$d °C \n  - %6$.1f км</string>
-    <string name="notification_text_max">[ШВИДК.] \n  ⭐ %1$.0f км/г \n  🔥 %2$.0f топ \n  🙈 %3$.0f сер  \n\n[ДАНI] \n  💧 %4$d %% \n  ⚡ %5$.2f V \n  💪 %6$.0f W \n  ❄ %7$d °C  \n\n[ШЛЯХ] \n  👣 %8$.1f км</string>
-    <string name="notification_text_alarm">[ДАНI] \n  - %1$.0f км/г \n  - %2$.1f A \n  - %3$.2f V \n  - %4$d %% \n  - %5$d °C</string>
-    <string name="notification_text_alarm_not">Дані аларму: %1$.0f км/г | %2$.1f A | %3$.2f V | %4$d %% | %5$d °C</string>
+    <string name="notification_text_min">[ШВИДК.] \n  - %1$.0f к/г \n  - %2$.0f мкс  \n\n[БАТАРЕЯ] \n  - %3$d %%  \n\n[ШЛЯХ] \n  - %4$.1f км</string>
+    <string name="notification_text_med">[ШВИДК.] \n  - %1$.0f к/г \n  - %2$.0f сер \n  - %3$.0f pwm  \n\n[IНШЕ] \n  - %4$d %% \n  - %5$d °C \n  - %6$.1f км</string>
+    <string name="notification_text_max">[ШВИДК.] \n  ⭐ %1$.0f к/г \n  🔥 %2$.0f топ \n  🙈 %3$.0f сер  \n\n[ДАНI] \n  💧 %4$d %% \n  ⚡ %5$.2f V \n  💪 %6$.0f W \n  ❄ %7$d °C  \n\n[ШЛЯХ] \n  👣 %8$.1f км</string>
+    <string name="notification_text_alarm">[ДАНI] \n  - %1$.0f к/г \n  - %2$.1f A \n  - %3$.2f V \n  - %4$d %% \n  - %5$d °C</string>
+    <string name="notification_text_alarm_not">Дані аларму: %1$.0f к/г | %2$.1f A | %3$.2f V | %4$d %% | %5$d °C</string>
     <string name="mode_learn">Початківець</string>
     <string name="mode_play">Експерт</string>
     <string name="mode_ride">Звичайний</string>
