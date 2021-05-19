@@ -55,7 +55,7 @@
             android:background="@android:color/transparent"
             android:contentDescription="@string/manual_upload_to_ec"
             android:padding="10dp"
-            app:srcCompat="@drawable/ic_baseline_cloud_upload_24" />
+            app:srcCompat="@drawable/ajdm_cloud" />
 
     </RelativeLayout>
 
@@ -68,6 +68,6 @@
         android:padding="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_baseline_share_24" />
+        app:srcCompat="@drawable/ajdm_share" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

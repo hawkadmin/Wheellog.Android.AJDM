@@ -14,6 +14,7 @@ import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
 import com.cooper.wheellog.*
 import com.cooper.wheellog.presentation.preferences.MultiSelectPreference
+import java.util.*
 
 class NotificationUtil(private val context: Context) {
     private val builder: NotificationCompat.Builder
@@ -160,17 +161,16 @@ class NotificationUtil(private val context: Context) {
 
     init {
         createNotificationChannel()
-        builder = NotificationCompat.Builder(context, Constants.NOTIFICATION_CHANNEL_ID_NOTIFICATION)
-// for test
-//        Timer().scheduleAtFixedRate(object : TimerTask() {
-//            override fun run() {
-//                val wd = WheelData.getInstance() ?: return
-//                wd.setBatteryPercent((Math.random() * 100).toInt())
-//                wd.temperature = (Math.random() * 10000).toInt()
-//                wd.totalDistance = (Math.random() * 10000).toLong()
-//                wd.speed = (Math.random() * 5000).toInt()
-//                update()
-//            }
-//        }, 1000, 1000)
-    }
+        builder =
+            NotificationCompat.Builder(context, Constants.NOTIFICATION_CHANNEL_ID_NOTIFICATION)
+// Try for RS fix
+
+            Timer().scheduleAtFixedRate(object : TimerTask() {
+                override fun run() {
+                    if (WheelLog.AppConfig.mibandMode != MiBandEnum.Alarm) {
+                        update()
+                    }
+                }
+            }, 1000, 1000)
+        }
 }
