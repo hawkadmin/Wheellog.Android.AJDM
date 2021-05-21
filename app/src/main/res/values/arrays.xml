@@ -109,6 +109,10 @@
         <item>@string/average_riding_speed</item>
         <item>@string/riding_time</item>
         <item>@string/top_speed</item>
+        <item>@string/pwm</item>
+        <item>@string/current</item>
+        <item>@string/maxpower</item>
+        <item>@string/maxtemperature</item>
         <item>@string/distance</item>
         <item>@string/total</item>
     </string-array>

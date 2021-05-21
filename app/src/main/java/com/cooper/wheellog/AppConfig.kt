@@ -30,7 +30,7 @@ class AppConfig(var context: Context) {
 
     var appTheme: Int
         get() {
-            val stringVal = getValue(R.string.app_theme, ThemeEnum.Original.value.toString())
+            val stringVal = getValue(R.string.app_theme, ThemeEnum.AJDM.value.toString())
             return when (ThemeEnum.fromInt(stringVal.toInt())) {
                 ThemeEnum.AJDM -> R.style.AJDMTheme
                 else -> R.style.OriginalTheme
@@ -75,7 +75,7 @@ class AppConfig(var context: Context) {
         set(value) = setValue(R.string.current_on_dial, value)
 
     var pageEvents: Boolean
-        get() = getValue(R.string.show_page_events, false)
+        get() = getValue(R.string.show_page_events, true)
         set(value) = setValue(R.string.show_page_events, value)
 
     var pageTrips: Boolean
@@ -119,7 +119,7 @@ class AppConfig(var context: Context) {
         set(value) = setValue(R.string.beep_file, value.toString())
 
     var mibandMode: MiBandEnum
-        get() = MiBandEnum.fromInt(getValue(R.string.miband_mode, MiBandEnum.Min.value))
+        get() = MiBandEnum.fromInt(getValue(R.string.miband_mode, MiBandEnum.Medium.value))
         set(value) = setValue(R.string.miband_mode, value.value)
 
     var useReconnect: Boolean
@@ -171,7 +171,7 @@ class AppConfig(var context: Context) {
         set(value) = setValue(R.string.garmin_connectiq_enable, value)
 
     var mibandOnMainscreen: Boolean
-        get() = getValue(R.string.miband_on_mainscreen_enable, false)
+        get() = getValue(R.string.miband_on_mainscreen_enable, true)
         set(value) = setValue(R.string.miband_on_mainscreen_enable, value)
     //endregion
 

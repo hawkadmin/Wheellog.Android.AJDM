@@ -110,7 +110,9 @@ class SpeedSettings(context: Context, ps: PreferenceScreen) : BaseSettingsClass(
                 if (WheelLog.AppConfig.notifivationButtons == null) {
                     setValues(listOf(getString(R.string.icon_connection),
                             getString(R.string.icon_logging),
-                            getString(R.string.icon_watch)))
+                            getString(R.string.icon_beep),
+                            getString(R.string.icon_light),
+                            getString(R.string.icon_miband)))
                 }
                 addPreference(this)
             }
